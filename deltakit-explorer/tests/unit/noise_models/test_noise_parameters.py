@@ -66,7 +66,7 @@ class TestNoiseParameters:
         assert noise.measurement_noise_after == m_noise
         assert noise.measurement_flip == m_flip
         assert noise.measurement_noise_before == before_gate
-       
+
     def test_position_args_raise_error(self):
         with pytest.raises(TypeError, match="positional argument"):
             NoiseParameters(0.01)
