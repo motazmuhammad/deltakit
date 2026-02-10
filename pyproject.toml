@@ -179,6 +179,7 @@ stabilizer = "stabilizer"
 stabilizers = "stabilizers"
 synchronize = "synchronize"       # multiprocessing import
 neighbors = "neighbors"
+capitalize = "capitalize"
 labeled = "labeled"
 labeler = "labeler"
 
